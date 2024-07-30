@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: gold;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+section#home {
+    background-color: #f0f0f0;
+}
+
+section#about {
+    background-color: #e0e0e0;
+}
+
+section#media {
+    background-color: #f0f0f0;
+}
+
+section#contact {
+    background-color: #e0e0e0;
+}
+
+footer {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;  /* Espaço para separar o rodapé do conteúdo */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin: 0.5em 0 0.2em;
+    align-self: flex-start;
+}
+
+input, textarea {
+    margin: 0.5em 0;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button {
+    padding: 0.5em 2em;
+    background-color: gold;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1em;
+    margin-top: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0b900;
+}
+
+.media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.media-item {
+    margin: 1em;
+    text-align: center;
+}
+
+.media-item img, .media-item video {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
