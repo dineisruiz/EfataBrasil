@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Efatá</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+        <div class="navbar">
+            
+            <div class="header-content">
+                <img src="C:\Users\Magalu\Desktop\Efata\logoefatanew.png" alt="Logo da Igreja" class="logo-img">
+                <div class="logo-text"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Início</a></li>
+                    <li><a href="About.html">Sobre</a></li>
+                    <li><a href="media.html">Mídia</a></li>
+                    <li><a href="contact.html">Fale Conosco</a></li>
+					<li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+         
+        </div>
+    </header>
+
+    
+
+    <section id="locations" class="section">
+        <h2>Localização</h2>
+        <p>Selecione uma unidade:</p>
+        <select id="location-select" onchange="updateMaps()">
+            <option value="location1">Unidade 1</option>
+            <option value="location2">Unidade 2</option>
+        </select>
+        <div id="maps-container" class="maps-container">
+            <div id="location1" class="map">
+                <p>Endereço 1: Rua Exemplo, 123 - Bairro - Cidade, Estado - CEP 09581-040</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.998876560343!2d-122.41941668469738!3d37.77492927975807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5e0c53fd%3A0xf0e0161c8a8d2e8f!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1608583149216!5m2!1sen!2sus" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div id="location2" class="map">
+                <p>Endereço 2: R. Antônio da Cunha Coelho, 190 - Vila Pereira Cerca - São Paulo, SP - CEP 02929-010</p>
+                <iframe src="https://www.google.com/maps/place/R.+Ant%C3%B4nio+da+Cunha+Coelho,+190+-+Vila+Pereira+Cerca/@-23.4945313,-46.7114745,15.75z/data=!4m7!3m6!1s0x94cef9aa60c8d0fd:0xa6ea256ecad48671!4b1!8m2!3d-23.49468!4d-46.7080822!16s%2Fg%2F11b8vdgr3f?hl=en&entry=ttu" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Igreja Efatá. Todos os direitos reservados.</p>
+    </footer>os
+
+    <script src="script.js"></script>
+</body>
+</html>
